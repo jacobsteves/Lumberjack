@@ -1,0 +1,1650 @@
+fileFormatVersion: 2
+guid: 1ae7cfa3e5f3209488841e55fc5a4fa1
+timeCreated: 1434517141
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES_SMW_enemies_0
+    21300002: SNES_SMW_enemies_1
+    21300004: SNES_SMW_enemies_2
+    21300006: SNES_SMW_enemies_3
+    21300008: SNES_SMW_enemies_4
+    21300010: SNES_SMW_enemies_5
+    21300012: SNES_SMW_enemies_6
+    21300014: SNES_SMW_enemies_7
+    21300016: SNES_SMW_enemies_8
+    21300018: SNES_SMW_enemies_9
+    21300020: SNES_SMW_enemies_10
+    21300022: SNES_SMW_enemies_11
+    21300024: SNES_SMW_enemies_12
+    21300026: SNES_SMW_enemies_13
+    21300028: SNES_SMW_enemies_14
+    21300030: SNES_SMW_enemies_15
+    21300032: SNES_SMW_enemies_16
+    21300034: SNES_SMW_enemies_17
+    21300036: SNES_SMW_enemies_18
+    21300038: SNES_SMW_enemies_19
+    21300040: SNES_SMW_enemies_20
+    21300042: SNES_SMW_enemies_21
+    21300044: SNES_SMW_enemies_22
+    21300046: SNES_SMW_enemies_23
+    21300048: SNES_SMW_enemies_24
+    21300050: SNES_SMW_enemies_25
+    21300052: SNES_SMW_enemies_26
+    21300054: SNES_SMW_enemies_27
+    21300056: SNES_SMW_enemies_28
+    21300058: SNES_SMW_enemies_29
+    21300060: SNES_SMW_enemies_30
+    21300062: SNES_SMW_enemies_31
+    21300064: SNES_SMW_enemies_32
+    21300066: SNES_SMW_enemies_33
+    21300068: SNES_SMW_enemies_34
+    21300070: SNES_SMW_enemies_35
+    21300072: SNES_SMW_enemies_36
+    21300074: SNES_SMW_enemies_37
+    21300076: SNES_SMW_enemies_38
+    21300078: SNES_SMW_enemies_39
+    21300080: SNES_SMW_enemies_40
+    21300082: SNES_SMW_enemies_41
+    21300084: SNES_SMW_enemies_42
+    21300086: SNES_SMW_enemies_43
+    21300088: SNES_SMW_enemies_44
+    21300090: SNES_SMW_enemies_45
+    21300092: SNES_SMW_enemies_46
+    21300094: SNES_SMW_enemies_47
+    21300096: SNES_SMW_enemies_48
+    21300098: SNES_SMW_enemies_49
+    21300100: SNES_SMW_enemies_50
+    21300102: SNES_SMW_enemies_51
+    21300104: SNES_SMW_enemies_52
+    21300106: SNES_SMW_enemies_53
+    21300108: SNES_SMW_enemies_54
+    21300110: SNES_SMW_enemies_55
+    21300112: SNES_SMW_enemies_56
+    21300114: SNES_SMW_enemies_57
+    21300116: SNES_SMW_enemies_58
+    21300118: SNES_SMW_enemies_59
+    21300120: SNES_SMW_enemies_60
+    21300122: SNES_SMW_enemies_61
+    21300124: SNES_SMW_enemies_62
+    21300126: SNES_SMW_enemies_63
+    21300128: SNES_SMW_enemies_64
+    21300130: SNES_SMW_enemies_65
+    21300132: SNES_SMW_enemies_66
+    21300134: SNES_SMW_enemies_67
+    21300136: SNES_SMW_enemies_68
+    21300138: SNES_SMW_enemies_69
+    21300140: SNES_SMW_enemies_70
+    21300142: SNES_SMW_enemies_71
+    21300144: SNES_SMW_enemies_72
+    21300146: SNES_SMW_enemies_73
+    21300148: SNES_SMW_enemies_74
+    21300150: SNES_SMW_enemies_75
+    21300152: SNES_SMW_enemies_76
+    21300154: SNES_SMW_enemies_77
+    21300156: SNES_SMW_enemies_78
+    21300158: SNES_SMW_enemies_79
+    21300160: SNES_SMW_enemies_80
+    21300162: SNES_SMW_enemies_81
+    21300164: SNES_SMW_enemies_82
+    21300166: SNES_SMW_enemies_83
+    21300168: SNES_SMW_enemies_84
+    21300170: SNES_SMW_enemies_85
+    21300172: SNES_SMW_enemies_86
+    21300174: SNES_SMW_enemies_87
+    21300176: SNES_SMW_enemies_88
+    21300178: SNES_SMW_enemies_89
+    21300180: SNES_SMW_enemies_90
+    21300182: SNES_SMW_enemies_91
+    21300184: SNES_SMW_enemies_92
+    21300186: SNES_SMW_enemies_93
+    21300188: SNES_SMW_enemies_94
+    21300190: SNES_SMW_enemies_95
+    21300192: SNES_SMW_enemies_96
+    21300194: SNES_SMW_enemies_97
+    21300196: SNES_SMW_enemies_98
+    21300198: SNES_SMW_enemies_99
+    21300200: SNES_SMW_enemies_100
+    21300202: SNES_SMW_enemies_101
+    21300204: SNES_SMW_enemies_102
+    21300206: SNES_SMW_enemies_103
+    21300208: SNES_SMW_enemies_104
+    21300210: SNES_SMW_enemies_105
+    21300212: SNES_SMW_enemies_106
+    21300214: SNES_SMW_enemies_107
+    21300216: SNES_SMW_enemies_108
+    21300218: SNES_SMW_enemies_109
+    21300220: SNES_SMW_enemies_110
+    21300222: SNES_SMW_enemies_111
+    21300224: SNES_SMW_enemies_112
+    21300226: SNES_SMW_enemies_113
+    21300228: SNES_SMW_enemies_114
+    21300230: SNES_SMW_enemies_115
+    21300232: SNES_SMW_enemies_116
+    21300234: SNES_SMW_enemies_117
+    21300236: SNES_SMW_enemies_118
+    21300238: SNES_SMW_enemies_119
+    21300240: SNES_SMW_enemies_120
+    21300242: SNES_SMW_enemies_121
+    21300244: SNES_SMW_enemies_122
+    21300246: SNES_SMW_enemies_123
+    21300248: SNES_SMW_enemies_124
+    21300250: SNES_SMW_enemies_125
+    21300252: SNES_SMW_enemies_126
+    21300254: SNES_SMW_enemies_127
+    21300256: SNES_SMW_enemies_128
+    21300258: SNES_SMW_enemies_129
+    21300260: SNES_SMW_enemies_130
+    21300262: SNES_SMW_enemies_131
+    21300264: SNES_SMW_enemies_132
+    21300266: SNES_SMW_enemies_133
+    21300268: SNES_SMW_enemies_134
+    21300270: SNES_SMW_enemies_135
+    21300272: SNES_SMW_enemies_136
+    21300274: SNES_SMW_enemies_137
+    21300276: SNES_SMW_enemies_138
+    21300278: SNES_SMW_enemies_139
+    21300280: SNES_SMW_enemies_140
+    21300282: SNES_SMW_enemies_141
+    21300284: SNES_SMW_enemies_142
+    21300286: SNES_SMW_enemies_143
+    21300288: SNES_SMW_enemies_144
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SNES_SMW_enemies_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 280
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 280
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 280
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_23
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 227
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 227
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 227
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 227
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_37
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 227
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 209
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_41
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 209
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 209
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 209
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_46
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 209
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_47
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 209
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_50
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 209
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 209
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_53
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_54
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_55
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_56
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_57
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_62
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_63
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_64
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_65
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_66
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_67
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_68
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_69
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_71
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_72
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_74
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_76
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_77
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_78
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_79
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_80
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_83
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_84
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 143
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_86
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_87
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 143
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_88
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 143
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_90
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 143
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_91
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 143
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_93
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_94
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 113
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_96
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_97
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 113
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_98
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_99
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 113
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_100
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 113
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_101
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 113
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_102
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_103
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_104
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_106
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_107
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_108
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_110
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_111
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_112
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_115
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_116
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_118
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 50
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_119
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_120
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 50
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_121
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 50
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_122
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 50
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_123
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 50
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_124
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_125
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_126
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 50
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_127
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_128
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_129
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 24
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_130
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_131
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 24
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_132
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_133
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_134
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_135
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 24
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_136
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 25
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_137
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_138
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 24
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_139
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 26
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_140
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 24
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_141
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_142
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_143
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES_SMW_enemies_144
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

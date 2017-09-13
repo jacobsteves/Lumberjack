@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: cdee1749e3301ca458aa35be161b5dcb
+timeCreated: 1434230188
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: marioandluigi2_0
+    21300002: marioandluigi2_1
+    21300004: marioandluigi2_2
+    21300006: marioandluigi2_3
+    21300008: marioandluigi2_4
+    21300010: marioandluigi2_5
+    21300012: marioandluigi2_6
+    21300014: marioandluigi2_7
+    21300016: marioandluigi2_8
+    21300018: marioandluigi2_9
+    21300020: marioandluigi2_10
+    21300022: marioandluigi2_11
+    21300024: marioandluigi2_12
+    21300026: marioandluigi2_13
+    21300028: marioandluigi2_14
+    21300030: marioandluigi2_15
+    21300032: marioandluigi2_16
+    21300034: marioandluigi2_17
+    21300036: marioandluigi2_18
+    21300038: marioandluigi2_19
+    21300040: marioandluigi2_20
+    21300042: marioandluigi2_21
+    21300044: marioandluigi2_22
+    21300046: marioandluigi2_23
+    21300048: marioandluigi2_24
+    21300050: marioandluigi2_25
+    21300052: marioandluigi2_26
+    21300054: marioandluigi2_27
+    21300056: marioandluigi2_28
+    21300058: marioandluigi2_29
+    21300060: marioandluigi2_30
+    21300062: marioandluigi2_31
+    21300064: marioandluigi2_32
+    21300066: marioandluigi2_33
+    21300068: marioandluigi2_34
+    21300070: marioandluigi2_35
+    21300072: marioandluigi2_36
+    21300074: marioandluigi2_37
+    21300076: marioandluigi2_38
+    21300078: marioandluigi2_39
+    21300080: marioandluigi2_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: marioandluigi2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 53
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 53
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 53
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 53
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 53
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 53
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 53
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 53
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 53
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 53
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 53
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 53
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 53
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 53
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 53
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_16
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 53
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 53
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 53
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 37
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 6
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 6
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_27
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 6
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 6
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 6
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_33
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 6
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 6
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_37
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 6
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 6
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_39
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 6
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioandluigi2_40
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

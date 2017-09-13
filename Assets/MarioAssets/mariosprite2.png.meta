@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 4af87f0d3195a83458678aa55cebe571
+timeCreated: 1434227037
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mariosprite2_0
+    21300002: mariosprite2_1
+    21300004: mariosprite2_2
+    21300006: mariosprite2_3
+    21300008: mariosprite2_4
+    21300010: mariosprite2_5
+    21300012: mariosprite2_6
+    21300014: mariosprite2_7
+    21300016: mariosprite2_8
+    21300018: mariosprite2_9
+    21300020: mariosprite2_10
+    21300022: mariosprite2_11
+    21300024: mariosprite2_12
+    21300026: mariosprite2_13
+    21300028: mariosprite2_14
+    21300030: mariosprite2_15
+    21300032: mariosprite2_16
+    21300034: mariosprite2_17
+    21300036: mariosprite2_18
+    21300038: mariosprite2_19
+    21300040: mariosprite2_20
+    21300042: mariosprite2_21
+    21300044: mariosprite2_22
+    21300046: mariosprite2_23
+    21300048: mariosprite2_24
+    21300050: mariosprite2_25
+    21300052: mariosprite2_26
+    21300054: mariosprite2_27
+    21300056: mariosprite2_28
+    21300058: mariosprite2_29
+    21300060: mariosprite2_30
+    21300062: mariosprite2_31
+    21300064: mariosprite2_32
+    21300066: mariosprite2_33
+    21300068: mariosprite2_34
+    21300070: mariosprite2_35
+    21300072: mariosprite2_36
+    21300074: mariosprite2_37
+    21300076: mariosprite2_38
+    21300078: mariosprite2_39
+    21300080: mariosprite2_40
+    21300082: mariosprite2_41
+    21300084: mariosprite2_42
+    21300086: mariosprite2_43
+    21300088: mariosprite2_44
+    21300090: mariosprite2_45
+    21300092: mariosprite2_46
+    21300094: mariosprite2_47
+    21300096: mariosprite2_48
+    21300098: mariosprite2_49
+    21300100: mariosprite2_50
+    21300102: mariosprite2_51
+    21300104: mariosprite2_52
+    21300106: mariosprite2_53
+    21300108: mariosprite2_54
+    21300110: mariosprite2_55
+    21300112: mariosprite2_56
+    21300114: mariosprite2_57
+    21300116: mariosprite2_58
+    21300118: mariosprite2_59
+    21300120: mariosprite2_60
+    21300122: mariosprite2_61
+    21300124: mariosprite2_62
+    21300126: mariosprite2_63
+    21300128: mariosprite2_64
+    21300130: mariosprite2_65
+    21300132: mariosprite2_66
+    21300134: mariosprite2_67
+    21300136: mariosprite2_68
+    21300138: mariosprite2_69
+    21300140: mariosprite2_70
+    21300142: mariosprite2_71
+    21300144: mariosprite2_72
+    21300146: mariosprite2_73
+    21300148: mariosprite2_74
+    21300150: mariosprite2_75
+    21300152: mariosprite2_76
+    21300154: mariosprite2_77
+    21300156: mariosprite2_78
+    21300158: mariosprite2_79
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mariosprite2_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 338
+        width: 73
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 298
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 299
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 298
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 298
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 298
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 298
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 298
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 282
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 283
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_10
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 284
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 257
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 258
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 257
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 258
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 257
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 257
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 258
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 220
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 219
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 218
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 218
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 217
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 217
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 218
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 219
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 219
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 218
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 176
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 177
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 176
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 176
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_33
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 176
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_34
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 176
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_35
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 179
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_36
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 181
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_37
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 184
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 139
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 140
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 146
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 139
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 138
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_43
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 138
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 139
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_45
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 145
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_46
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 144
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_47
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 144
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 100
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 99
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 100
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_51
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 100
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_52
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 99
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_53
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 99
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_55
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 102
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_56
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 103
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_57
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 106
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_58
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 51
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 55
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_60
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 58
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_61
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 57
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_62
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 57
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_63
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 58
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_64
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 55
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 53
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_66
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 48
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_67
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 50
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_68
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_71
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 17
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 17
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_73
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 17
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_75
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 17
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_76
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 17
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_77
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 8
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_78
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 8
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariosprite2_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
