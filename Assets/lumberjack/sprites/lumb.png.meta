@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: b93ff67a8debf4123b00540f899d8212
+timeCreated: 1463793820
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: promlumb_0
+    21300002: promlumb_1
+    21300004: promlumb_2
+    21300006: promlumb_3
+    21300008: promlumb_4
+    21300010: promlumb_5
+    21300012: promlumb_6
+    21300014: promlumb_7
+    21300016: promlumb_8
+    21300018: promlumb_9
+    21300020: promlumb_10
+    21300022: promlumb_11
+    21300024: promlumb_12
+    21300026: promlumb_13
+    21300028: promlumb_14
+    21300030: promlumb_15
+    21300032: promlumb_16
+    21300034: promlumb_17
+    21300036: promlumb_18
+    21300038: promlumb_19
+    21300040: promlumb_20
+    21300042: promlumb_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: promlumb_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 87
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 88
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 88
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 87
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 87
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 87
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 87
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 87
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 46
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 47
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 47
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 46
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 46
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 47
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 6
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 7
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 8
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: promlumb_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 7
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
