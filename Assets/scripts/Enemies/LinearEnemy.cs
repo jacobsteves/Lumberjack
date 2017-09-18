@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class goomba : MonoBehaviour {
+public class LinearEnemy : MonoBehaviour {
 	public Transform[] waypoints;
+	public string loadLevel;
 	private int cur = 0;
+
 	public float speed = 0.3f;
-	
+
 	IEnumerator Wait(){
 		yield return new WaitForSeconds (2.0f);
-		Application.LoadLevel("LumberJack_World1");
+		Application.LoadLevel(loadLevel);
 	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		//if waypoint not reached, move forward
@@ -22,9 +25,9 @@ public class goomba : MonoBehaviour {
 			cur = (cur + 1) % waypoints.Length;
 	}
 	//destroy mario if collision occurs
-	void OnTriggerEnter2D(Collider2D co) {
-		if (co.name == "player") {
-			Destroy (co.gameObject);
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.tag == "Player") {
+			Destroy (other.gameObject);
 			StartCoroutine (Wait ());
 		}
 	}

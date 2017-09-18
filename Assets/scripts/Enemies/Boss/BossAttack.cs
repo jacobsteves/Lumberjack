@@ -4,13 +4,14 @@ using System.Collections;
 public class BossAttack : MonoBehaviour {
 	public Transform[] waypoints;
 	public GameObject fireball;
+	public string restartLevel;
 	private int cur = 0;
 
 	public float speed = 0.3f;
 
-	IEnumerator Wait(){
+	IEnumerator Restart(){
 		yield return new WaitForSeconds (2.0f);
-		Application.LoadLevel("marioScene2");
+		Application.LoadLevel(restartLevel);
 	}
 	void Start () {
 		fireball.SetActive(true);
@@ -32,7 +33,7 @@ public class BossAttack : MonoBehaviour {
 		if (other.gameObject.tag == "Player")
 		{
 			Destroy (other.gameObject);
-			StartCoroutine (Wait ());
+			StartCoroutine (Restart ());
 		}
 	}
 }

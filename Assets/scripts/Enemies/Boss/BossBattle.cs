@@ -2,6 +2,10 @@
 using UnityEngine.UI;
 using System.Collections;
 
+// This battle is supposed to be played out as more of a cutscene that the
+// player has to survive, so it plays out as a series of coroutines or events
+// and the player just has to survive until it plays out.
+
 public class BossBattle : MonoBehaviour {
 	public Transform[] Waypoint = new Transform[3];
 	private int cur = 0;
@@ -10,7 +14,7 @@ public class BossBattle : MonoBehaviour {
 	public GameObject PlayerWin;
 	public GameObject Player;
 	public GameObject slideTrigger;
-	//bowser animation variables
+	//boss animation variables
 	public GameObject Idle;
 	public GameObject Intro;
 	public GameObject IntroFireballs;
@@ -32,7 +36,7 @@ public class BossBattle : MonoBehaviour {
 	public GameObject DashAttackIntro;
 	public GameObject DashAttack;
 	public GameObject FallingWall;
-	public GameObject Bowser;
+	public GameObject Boss;
 	public GameObject Loss;
 	public GameObject Death;
 	public GameObject BossAudio;
@@ -57,10 +61,11 @@ public class BossBattle : MonoBehaviour {
 	public GameObject weakness;
 	public GameObject shellcollider;
 	private Rigidbody2D rb;
-	public GameObject BowserMove;
+	public GameObject BossMove;
+	public string loadLevel;
 	private int slide10 = 0;
 	private int slide11 = 0;
-	// Use this for initialization, turn everything off so there isnt a cluster of bowser
+	// Use this for initialization, turn everything off so there isnt a cluster of boss
 	void Start () {
 		attackable = false;
 		BeginBattle2 = false;
@@ -105,12 +110,12 @@ public class BossBattle : MonoBehaviour {
 		slideTrigger.SetActive (false);
 		Idle.SetActive(true);
 		level = 1;
-		BowserMove.GetComponent<bowsertest>().enabled = false;
+		BossMove.GetComponent<bosstest>().enabled = false;
 	}
 	// Update is called once per frame
 	void FixedUpdate () {
 		if (slide10 == 1) {
-			if (Bowser.transform.position != Waypoint [cur].position) {
+			if (Boss.transform.position != Waypoint [cur].position) {
 				Vector2 p = Vector2.MoveTowards (transform.position, Waypoint [cur].position, speed);
 				GetComponent<Rigidbody2D> ().MovePosition (p);
 			} else {
@@ -141,16 +146,16 @@ public class BossBattle : MonoBehaviour {
 				weakness.SetActive (false);
 				shellcollider.SetActive(false);
 				if (level == 1){
-					StartCoroutine ("BowserDamaged");
+					StartCoroutine ("BossDamaged");
 				}else if (level == 2){
-					StartCoroutine ("BowserDamagedTwo");
-					StopCoroutine ("BowserDamagedOne");
+					StartCoroutine ("BossDamagedTwo");
+					StopCoroutine ("BossDamagedOne");
 				}else if (level == 3){
 					StopCoroutine ("BeginBattleThree");
 					StopCoroutine ("IntroLengthTwo");
-					StopCoroutine ("BowserDamagedOne");
-					StopCoroutine ("BowserDamagedTwo");
-					StartCoroutine ("BowserDamagedThree");
+					StopCoroutine ("BossDamagedOne");
+					StopCoroutine ("BossDamagedTwo");
+					StartCoroutine ("BossDamagedThree");
 				}
 			}
 		}
@@ -158,10 +163,11 @@ public class BossBattle : MonoBehaviour {
 			StartCoroutine ("EndGame");
 		}
 	}
-//Bowser Level One
+
+//Boss Level One
 	//Begin the battle by triggering intro animation
 	IEnumerator BeginBattle(){
-		Bowser.GetComponent<Collider2D>().enabled = false;
+		Boss.GetComponent<Collider2D>().enabled = false;
 		FallingWall.SetActive(true);
 		yield return new WaitForSeconds (4.0f);
 		Idle.SetActive(false);
@@ -169,6 +175,7 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (0.1f);
 		StartCoroutine (IntroLength ());
 	}
+
 	//Fix the length of the intro animation
 	IEnumerator IntroLength(){
 		yield return new WaitForSeconds (2.4f);
@@ -177,6 +184,7 @@ public class BossBattle : MonoBehaviour {
 		Intro.SetActive(false);
 		StartCoroutine (transition1 ());
 	}
+
 	//First battle transition
 	IEnumerator transition1(){
 		yield return new WaitForSeconds (5.0f);
@@ -190,6 +198,7 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (4.5f);
 		StartCoroutine ("shelldash");
 	}
+
 	//shell dash and animations
 	IEnumerator shelldash(){
 		shellcollider.SetActive(true);
@@ -198,10 +207,10 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (1.0f);
 		DashAttackIntro.SetActive (false);
 		DashAttack.SetActive (true);
-		//slideTrigger.SetActive (true);
-		MoveBowser ();
-		//BowserMove.GetComponent<bowsertest>().enabled = true;
-	}IEnumerator shelldash2(){
+		MoveBoss ();
+	}
+
+	IEnumerator shelldash2(){
 		slideTrigger.SetActive (false);
 		shellcollider.SetActive(false);
 		weakness.SetActive(true);
@@ -211,19 +220,22 @@ public class BossBattle : MonoBehaviour {
 		IntroFireballs.SetActive(false);
 		weakness.SetActive (false);
 		Idle.SetActive (true);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
 		attackable = false;
 		StartCoroutine ("test");
-	}	//shell dash and animations
+	}
+
+	//shell dash and animations
 	IEnumerator test(){
 		weakness.SetActive (false);
 		Idle.SetActive (true);
 		yield return new WaitForSeconds (0.5f);
-		StartCoroutine (BowserDamaged ());
+		StartCoroutine (BossDamaged ());
 	}
-	IEnumerator BowserDamaged(){
+
+	IEnumerator BossDamaged(){
 		Idle.SetActive(false);
 		DashAttack.SetActive (false);
 		Loss.SetActive(true);
@@ -231,12 +243,14 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (2.0f);
 		Idle.SetActive(true);
 		Loss.SetActive(false);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		StartCoroutine ("BeginBattleTwo");
 	}
-//Bowser Level Two
+
+
+//Boss Level Two
 	//Begin the battle by triggering intro animation
 	IEnumerator BeginBattleTwo(){
 		yield return new WaitForSeconds (4.0f);
@@ -245,6 +259,7 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (0.1f);
 		StartCoroutine ("IntroLengthTwo");
 	}
+
 	//Fix the length of the intro animation
 	IEnumerator IntroLengthTwo(){
 		IntroFireballs4.SetActive(false);
@@ -258,6 +273,7 @@ public class BossBattle : MonoBehaviour {
 		Intro.SetActive(false);
 		StartCoroutine (transitionTwo ());
 	}
+
 	//First battle transition
 	IEnumerator transitionTwo(){
 		yield return new WaitForSeconds (5.0f);
@@ -274,6 +290,7 @@ public class BossBattle : MonoBehaviour {
 		level = 2;
 		StartCoroutine ("shelldashTwo");
 	}
+
 	//shell dash and animations
 	IEnumerator shelldashTwo(){
 		shellcollider.SetActive (true);
@@ -283,8 +300,10 @@ public class BossBattle : MonoBehaviour {
 		DashAttackIntro.SetActive (false);
 		DashAttack.SetActive (true);
 		slide11 = 1;
-		MoveBowser ();
-	}IEnumerator shelldashTwo2(){
+		MoveBoss ();
+	}
+
+	IEnumerator shelldashTwo2(){
 		DashAttack.SetActive(false);
 		deg30.SetActive(true);
 		yield return new WaitForSeconds (0.1f);
@@ -325,31 +344,36 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (6f);
 		weakness.SetActive (false);
 		Idle.SetActive (true);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 0, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
 		attackable = false;
 		StartCoroutine ("testTwo");
-	}	//shell dash and animations
+	}
+
+	//shell dash and animations
 	IEnumerator testTwo(){
 		weakness.SetActive (false);
 		Idle.SetActive (true);
 		yield return new WaitForSeconds (6.0f);
 		StartCoroutine ("BeginBattleTwo");
 	}
-	IEnumerator BowserDamagedTwo(){
+
+	IEnumerator BossDamagedTwo(){
 		Idle.SetActive(false);
 		Loss.SetActive(true);
 		level = 3;
 		yield return new WaitForSeconds (2.0f);
 		Idle.SetActive(true);
 		Loss.SetActive(false);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 0, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		StartCoroutine ("BeginBattleThree");
 	}
-//Bowser Level Three
+
+
+//Boss Level Three
 	//Begin the battle by triggering intro animation
 	IEnumerator BeginBattleThree(){
 		StartCoroutine ("BeginBattleTwo");
@@ -362,6 +386,7 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (0.1f);
 		StartCoroutine ("IntroLengthThree");
 	}
+
 	//Fix the length of the intro animation
 	IEnumerator IntroLengthThree(){
 		yield return new WaitForSeconds (2.7f);
@@ -374,6 +399,7 @@ public class BossBattle : MonoBehaviour {
 		Intro.SetActive(false);
 		StartCoroutine ("transitionThree");
 	}
+
 	//First battle transition
 	IEnumerator transitionThree(){
 		yield return new WaitForSeconds (6.5f);
@@ -392,6 +418,7 @@ public class BossBattle : MonoBehaviour {
 		AttackBFireball4.SetActive(false);
 		StartCoroutine ("shelldashThree");
 	}
+
 	//shell dash and animations
 	IEnumerator shelldashThree(){
 		shellcollider.SetActive(true);
@@ -416,7 +443,7 @@ public class BossBattle : MonoBehaviour {
 		DashAttackIntro.SetActive (false);
 		DashAttack.SetActive (true);
 		All.SetActive(false);
-		if (transform.position != Waypoint [0].position) { //make bowser dash to waypoint
+		if (transform.position != Waypoint [0].position) { //make boss dash to waypoint
 			Vector2 p = Vector2.MoveTowards (transform.position, Waypoint [0].position, speed);
 			GetComponent<Rigidbody2D> ().MovePosition (p);
 		}
@@ -467,20 +494,23 @@ public class BossBattle : MonoBehaviour {
 		weakness.SetActive (false);
 		Idle.SetActive (true);
 		All.SetActive(false);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); //times 1000 so rotation animation would not be seen
 		attackable = false;
 		StartCoroutine ("testThree");
-	}	//if Bowser not attacked, restart fight level
+	}
+
+	//if Boss not attacked, restart fight level
 	IEnumerator testThree(){
 		weakness.SetActive (false);
 		Idle.SetActive (true);
 		yield return new WaitForSeconds (6.0f);
 		StartCoroutine (BeginBattleThree ());
 	}
-	//if bowser attacked, end fight and turn on death animation
-	IEnumerator BowserDamagedThree(){
+
+	//if boss attacked, end fight and turn on death animation
+	IEnumerator BossDamagedThree(){
 		Idle.SetActive(false);
 		Loss.SetActive(true);
 		level = 4;
@@ -489,9 +519,9 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (2.0f);
 		//Idle.SetActive(true);
 		//Loss.SetActive(false);
-		//rotate bowser, since without rotation he would be facing the wall
+		//rotate boss, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
+		Boss.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		Loss.SetActive (false);
 		Death.SetActive (true);
 		Vector3 movement = new Vector2 (0.0f, -0.1f);
@@ -502,14 +532,15 @@ public class BossBattle : MonoBehaviour {
 		yield return new WaitForSeconds (3.0f);
 		StartCoroutine ("EndGame");
 	}
+
 	IEnumerator EndGame(){
 		yield return new WaitForSeconds (1.0f); //waiting to fade, so it doesnt happen the second you go outside
 		float fadeTime = GameObject.Find ("_GameMaster").GetComponent<fader>().BeginFade (1);
 		yield return new WaitForSeconds (fadeTime); //fading
 		yield return new WaitForSeconds (1.0f); //this last one is for dramatic effect
-		Application.LoadLevel("LumberJack_Ending");
+		Application.LoadLevel(loadLevel);
 	}
-	void MoveBowser() {
+	void MoveBoss() {
 		slide10 = 1;
 	}
 }

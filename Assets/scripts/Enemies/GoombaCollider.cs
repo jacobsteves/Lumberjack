@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GoombaTopCollider : MonoBehaviour {
+// This class is activated when a Goomba / squishable enemy is attacked.
+// The enemy gets squished for a moment, before getting deactivated.
+public class GoombaCollider : MonoBehaviour {
 	public GameObject GoombaAlive;
 	public GameObject GoombaDead;
 	public GameObject GoombaCollider;
@@ -17,7 +19,7 @@ public class GoombaTopCollider : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.tag == "Player") 
+		if (other.gameObject.tag == "Player")
 		{
 			GoombaDead.SetActive(true);
 			GoombaAlive.SetActive(false);
