@@ -1,17 +1,17 @@
 ﻿#pragma strict
 
 var track1 : AudioClip;
- var track2 : AudioClip;
- 
- GetComponent.<AudioSource>().clip = track1;
- GetComponent.<AudioSource>().Play();
- 
- var audio1Volume : float = 1.0;
- var audio2Volume : float = 0.0;
- var track2Playing : boolean = false;
- var fadingout : boolean = false;
- var trigger : GameObject; 
- 
+var track2 : AudioClip;
+
+GetComponent.<AudioSource>().clip = track1;
+GetComponent.<AudioSource>().Play();
+
+var audio1Volume : float = 1.0;
+var audio2Volume : float = 0.0;
+var track2Playing : boolean = false;
+var fadingout : boolean = false;
+var trigger : GameObject;
+
  function Update() {
  	if (fadingout == true){
     	 fadeOut();
@@ -23,7 +23,7 @@ var track1 : AudioClip;
            GetComponent.<AudioSource>().clip = track2;
            GetComponent.<AudioSource>().Play();
          }
-         
+
          fadeIn();
      }
      if (fadingout == false){
@@ -44,7 +44,7 @@ var track1 : AudioClip;
          GetComponent.<AudioSource>().volume = audio2Volume;
      }
  }
- 
+
  function fadeOut() {
      if(audio1Volume > 0.1)
      {

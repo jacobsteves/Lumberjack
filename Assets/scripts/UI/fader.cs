@@ -2,12 +2,12 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class fader : MonoBehaviour {
+public class Fader : MonoBehaviour {
 	public Texture2D fadeOutTexture;     //the texture that will overlay the screen
 	public float fadeSpeed = 0.8f; 		 //fading speed
 
 	private int drawDepth = -1000;	     //the draw in heirarchy, so itll render last
-	private float alpha = 1.0f;			 
+	private float alpha = 1.0f;
 	private int fadeDir = -1; 			 //direction to fade, -1=in, 1=out
 
 	void OnGUI () {
