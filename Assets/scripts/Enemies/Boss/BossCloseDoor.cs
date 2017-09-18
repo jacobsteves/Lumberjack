@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BowserCloseDoor : MonoBehaviour {
+public class BossCloseDoor : MonoBehaviour {
 	private Rigidbody2D rb;
 	public float speed = 0.2f;
 

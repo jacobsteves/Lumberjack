@@ -2,13 +2,13 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class BowserBattle : MonoBehaviour {
+public class BossBattle : MonoBehaviour {
 	public Transform[] Waypoint = new Transform[3];
 	private int cur = 0;
 	public float speed = 0.3f;
 	//win variables
-	public GameObject MarioWin;
-	public GameObject Mario;
+	public GameObject PlayerWin;
+	public GameObject Player;
 	public GameObject slideTrigger;
 	//bowser animation variables
 	public GameObject Idle;
@@ -99,7 +99,7 @@ public class BowserBattle : MonoBehaviour {
 		shellcollider.SetActive(false);
 		Loss.SetActive(false);
 		Death.SetActive(false);
-		MarioWin.SetActive(false);
+		PlayerWin.SetActive(false);
 		BossAudio.SetActive(true);
 		WinAudio.SetActive(false);
 		slideTrigger.SetActive (false);
@@ -233,7 +233,7 @@ public class BowserBattle : MonoBehaviour {
 		Loss.SetActive(false);
 		//rotate bowser, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); 
+		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		StartCoroutine ("BeginBattleTwo");
 	}
 //Bowser Level Two
@@ -346,7 +346,7 @@ public class BowserBattle : MonoBehaviour {
 		Loss.SetActive(false);
 		//rotate bowser, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 0, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); 
+		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		StartCoroutine ("BeginBattleThree");
 	}
 //Bowser Level Three
@@ -491,14 +491,14 @@ public class BowserBattle : MonoBehaviour {
 		//Loss.SetActive(false);
 		//rotate bowser, since without rotation he would be facing the wall
 		Quaternion target = Quaternion.Euler(0, 180, 0);
-		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000); 
+		Bowser.transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 1000);
 		Loss.SetActive (false);
 		Death.SetActive (true);
 		Vector3 movement = new Vector2 (0.0f, -0.1f);
 		Death.GetComponent<Rigidbody2D> ().AddForce (movement * speed);
 		yield return new WaitForSeconds (4.0f);
-		MarioWin.SetActive (true);
-		Mario.GetComponent<Renderer>().enabled = false;
+		PlayerWin.SetActive (true);
+		Player.GetComponent<Renderer>().enabled = false;
 		yield return new WaitForSeconds (3.0f);
 		StartCoroutine ("EndGame");
 	}

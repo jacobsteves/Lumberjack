@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AttackB : MonoBehaviour {
+public class BossAttack : MonoBehaviour {
 	public Transform[] waypoints;
 	public GameObject fireball;
 	private int cur = 0;
-	
+
 	public float speed = 0.3f;
-	
+
 	IEnumerator Wait(){
 		yield return new WaitForSeconds (2.0f);
 		Application.LoadLevel("marioScene2");
@@ -29,7 +29,7 @@ public class AttackB : MonoBehaviour {
 	}
 	//destroy mario if collision occurs
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.gameObject.tag == "Player") 
+		if (other.gameObject.tag == "Player")
 		{
 			Destroy (other.gameObject);
 			StartCoroutine (Wait ());

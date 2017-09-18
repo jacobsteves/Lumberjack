@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class movingBowserController : MonoBehaviour {
-	
+public class BossController : MonoBehaviour {
+
 	public GameObject slideTrigger;
 	public Transform[] waypoints;
 	private int cur = 0;
@@ -10,9 +10,9 @@ public class movingBowserController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
-	
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		if (slideTrigger.activeSelf) {
